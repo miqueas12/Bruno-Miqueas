@@ -1,0 +1,39 @@
+body{background:url('img/fundo.jpg');}
+.menos{
+width:226px;
+height:28px;
+font-family:Lucida Console;
+color:#ffffff;
+font-size:18px;
+background:url('img/m_0.jpg');
+padding-left:36px;
+padding-top:6px;
+cursor:default;
+Filter:alpha(opacity:90);
+margin-bottom:2.5px;
+margin-top:2.5px;
+}
+.on{
+width:226px;
+height:28px;
+font-family:Lucida Console;
+color:#00ccff;
+font-size:18px;
+background:url('img/m_on.jpg');
+padding-left:36px;
+padding-top:6px;
+cursor:hand;
+}
+.off{
+width:226px;
+height:28px;
+font-family:Lucida Console;
+color:#ffffff;
+font-size:14px;
+background:url('img/m_off.jpg');
+padding-left:36px;
+padding-top:6px;
+cursor:default;
+Filter:alpha(opacity:60);
+}
+.menutodos{position:absolute;top:15px;left:-260;}

@@ -1,0 +1,26 @@
+<html>
+<head>
+<script Language="JavaScript">
+function Valida()
+{
+  if (document.cadastro.email.value == ""){
+  		alert("Digite o email");
+  		document.cadastro.email.style.background = "D5D5D5"
+      return false;
+  }
+  if (document.cadastro.senha.value != "1234"){
+      alert("Senha incorreta");
+      return false;
+  }
+  return true;
+}
+</script>
+</head>
+<body>
+<form name=cadastro method=post action="http://www.scriptbrasil.com.br">
+Email: <input type=text name=email><br>
+Senha: <input type=text name=senha><br>
+<input type=submit onclick="return Valida()">
+</form>
+</body>
+</html>

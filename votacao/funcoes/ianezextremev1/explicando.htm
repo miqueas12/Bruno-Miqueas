@@ -1,0 +1,81 @@
+<html>
+<title>Explicando como fazer os Menus</title>
+<body onmousemove="mover()">
+<link rel="stylesheet" href="estilo.css" type="text/css">
+
+<div style="color:#ffffff;background:black;">
+Olá pessoal meu nome é ianez do carmo mathias e vou explicar como fazer um menu aqui.<br>
+Bom eu queria fazer um menu muito muito fácil de se usar e eu acho que criei.rsrrs<br><br>
+
+Vamos para alguns passos para criar um menu.<br>
+
+<b>1º Passo.</b><br>
+No body vai ter quer chamar uma função toda a vez que o mouse se movimenta<br>
+e então colocaremos <b>onmousemove="mover()"</b> no body.ok<br><br>
+ 
+<b>2º Passo</b><br>
+Á nessa página á um arquivo css e um arquivo js muito importantes para o funcionamento do menu<br>
+o arquivo css é vc pode editar para que o menu fique a sua cara, mas o js n aconselho modificar. ok<br>
+<br>
+
+<b>3º Passo</b><br>
+Nosso menu fica contidu num textarea com id="menu" esse textarea tem que ficar invisivel.ok<br>
+<br>
+
+<b>4º Passo</b><br>
+Bom vamos la.<br>
+Meu novo menu é muito simples trabalhando com 5 códigos.<br>
+São eles §0 , §1 , §2 , §3 , §5.<br>
+Calma n se assuste.é simples.<br>
+1º exemplo.<br>
+Os códigos §0 , §1 e §5 são código de inicio e §2 e §3 é de final<br>
+
+<br>
+Se colocar-mos no textarea isso:<br>
+<b>§0 Links §3</b><br>
+Ficara assim:<br>
+<div class="menos">Links</div><br><br>
+
+2º exemplo.<br>
+
+Se colocar-mos no textarea isso:<br>
+<b>§1 http://www.google.com.br §2 google §3</b><br>
+Quando eu clicar nesse menu eu vou para o link que eu coloquei ai.que no caso a google.
+Ficara assim:<br>
+<div class="off" onmouseover="className='on'"  onmouseout="className='off'">google</div><br><br>
+
+3º exemplo.<br>
+
+Se colocar-mos no textarea isso:<br>
+<b>§5 ianez() §2 Função §3</b><br>
+Quando eu clicar nesse menu eu vou eu vou chamar a função ianez().
+Ficara assim:<br>
+<div class="off" onmouseover="className='on'"  onmouseout="className='off'" onclick="ianez()">Função</div><br><br>
+
+<b>5º Passo</b><br>
+ Os erros graves.<br><br>
+
+Nunca deixe de colocar os espaços entre os codigos e os links, os codigos e os nomes, os codigos e as funções se n o script não<br>
+vai entender nada e vai dar problema.<br>
+Um exemplo de um <b>erro.</b><br><br>
+<b>§1http://www.google.com.br §2 google §3</b><br>
+Agora do geito certo<br>
+<b>§1 http://www.google.com.br §2 google §3</b><br>
+Dando espaço nos codigos a parada funciona. blz<br>
+<br><br>
+<b>Bom pessoal espero que gostem e que usem rsrsr blz<br>
+aqui o meu msn para maiores explicações <font color=red>ianez-mathias@hotmail.com</font></b><br><br>
+<b>Fiquem com Deus</b>
+
+</div>
+<script>
+function ianez(){
+alert("Chamando a função ianez");
+}
+</script>
+<textarea id="menu" style="display:none;">
+§0 Menu §3
+§1 IanezMenu.htm §2 Voltar §3
+§1 http://www.google.com.br §2 Google §3
+</textarea>
+<script src="menu.js"></script>

@@ -1,0 +1,143 @@
+html, body{
+    font-family:Verdana,"Trebuchet MS", Arial, Helvetica, sans-serif;
+	background-color:#0252A4;
+	text-align:center; /*alinha toda a página no centro*/
+}
+#tudo{
+	margin:20px auto;
+	padding:0px;
+	width:990px;
+}
+#urna{
+	margin:0px auto;
+	padding:0px;
+	background-image:url(image/tiradefundo.png);
+	background-repeat:repeat-x;
+	position:relative;
+	width:960px;
+	height:560px;
+}
+#tela{
+	margin:31px 0px 0px 21px;
+	padding:0px;
+	position:relative;
+	border-left:solid 3px #B3B3B3;
+	border-top:solid 3px #B3B3B3;
+	border-bottom:solid 3px #E6E6E6;
+	border-right:solid 3px #E6E6E6;
+	width:621px;
+	height:498px;
+	background-color:#CDCDD5;
+	float:left;
+}
+#justica{
+	margin:31px 15px 0px 0px;
+	padding:0px;
+	position:relative;
+	width:282px;
+	height:163px;
+	float:right;
+
+}
+#teclado{
+	margin:0px 0px 0px 12px;
+	padding:0px;
+	position:relative;
+	border-left:solid 3px #B3B3B3;
+	border-top:solid 3px #B3B3B3;
+	border-bottom:solid 3px #E6E6E6;
+	border-right:solid 3px #E6E6E6;
+	width:282px;
+	height:335px;
+	background-color:#333333;
+	float:left;	
+}
+.tecla{
+	margin:7px 0px 0px 7px;
+	padding:0px;
+	float:left;
+	position:relative;
+	height:45px;
+	width:84px;
+}
+.teclao{
+	margin:07px 0px 0px 99px;
+	padding:0px;
+	float:left;
+	position:relative;
+	height:45px;
+	width:84px;
+}
+.botaoum {
+background-image:url(image/um.png);
+	height:45px;
+	width:84px;
+}
+.botaodois {
+background-image:url(image/dois.png);
+	height:45px;
+	width:84px;
+}
+.botaotres {
+background-image:url(image/tres.png);
+	height:45px;
+	width:84px;
+}
+.botaoquatro {
+background-image:url(image/quatro.png);
+	height:45px;
+	width:84px;
+}
+.botaocinco {
+background-image:url(image/cinco.png);
+	height:45px;
+	width:84px;
+}
+.botaoseis {
+background-image:url(image/seis.png);
+	height:45px;
+	width:84px;
+}
+.botaosete {
+background-image:url(image/sete.png);
+	height:45px;
+	width:84px;
+}
+.botaooito {
+background-image:url(image/oito.png);
+	height:45px;
+	width:84px;
+}
+.botaonove {
+background-image:url(image/nove.png);
+	height:45px;
+	width:84px;
+}
+.botaozero {
+background-image:url(image/zero.png);
+	height:45px;
+	width:84px;
+}
+.botaobranco {
+background-image:url(image/branco.png);
+	height:45px;
+	width:84px;
+}
+.botaocorrige {
+background-image:url(image/corrige.png);
+	height:45px;
+	width:84px;
+}
+.botaoconfirma {
+background-image:url(image/confirma.png);
+	height:45px;
+	width:84px;
+}
+#conjbotao{
+	margin:31px 0px 0px 0px;
+	padding:0px;
+	position:relative;
+	width:280px;
+	float:left;
+}
+</html>
